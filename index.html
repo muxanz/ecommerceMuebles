@@ -5,34 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Muebles - Home</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    <head>
-        <h1>Tienda Muebles</h1>
-    </head>
+    <header class="nombre-sitio">
+        <h1>Tienda <span>Muebles</span></h1>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galería</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
+    <div class="contenedor-principal">
+        <nav class="nav-principal container">
+            <a href="index.html">Home</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galería</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
 
-    <section>
+    <div class="hero"></div>
+
+    <section class="container categorias">
         <h2>Categorías de Productos</h2>
-        <div>
-            <img src="img/categoria1.jpg" alt="Imagen Categoría Oficina">
-            <a href="">Oficina</a>
-        </div>
-        <div>
-            <img src="img/categoria2.jpg" alt="Imagen Categoría Hogar">
-            <a href="">Hogar</a>
-        </div>
-        <div>
-            <img src="img/categoria3.jpg" alt="Imagen Categoría Cocina">
-            <a href="">Cocina</a>
+        <div class="listado-categorias">
+            <div class="categoria">
+                <img src="img/categoria1.jpg" alt="Imagen Categoría Oficina">
+                <a href="">Oficina</a>
+            </div>
+            <div class="categoria">
+                <img src="img/categoria2.jpg" alt="Imagen Categoría Hogar">
+                <a href="">Hogar</a>
+            </div>
+            <div class="categoria">
+                <img src="img/categoria3.jpg" alt="Imagen Categoría Cocina">
+                <a href="">Cocina</a>
+            </div>
         </div>
     </section>
 
