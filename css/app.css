@@ -103,6 +103,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .categoria a {
@@ -212,3 +213,27 @@ img {
     font-weight: 900;
 }
 
+/* footer */
+.site-footer {
+    margin-top: 5rem;
+    padding-top: 3rem;
+    border-top: 1px solid #e1e1e1;
+}
+
+.site-footer h3 {
+    margin-bottom: .5rem;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-menu a {
+    display: block;
+}
+
+.copyright {
+    margin-top: 5rem;
+    text-align: center;
+}
